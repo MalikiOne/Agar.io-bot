@@ -8,6 +8,20 @@
 // @author      twitch.tv/apostolique
 // ==/UserScript==
 
+(function(g, r) {
+// ======================   Configurable Options    ==================================================================
+    var ColorsUseRadius = false; // If true, uses Radius, if false, uses Mass
+    var Huge = 2.66,
+        Large = 1.25,
+        Small = 0.7,
+        Tiny = 0.375;
+    var Huge_Color = "#FF3C3C",
+        Large_Color = "#FFBF3D",
+        Same_Color = "#FFFF00",
+        Small_Color  = "#00AA00",
+        Tiny_Color = "#CC66FF",
+        My_Color ="#3371FF";
+
 (function (g, q) {
   function wa() {
     ha();
